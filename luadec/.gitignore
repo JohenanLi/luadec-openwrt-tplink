@@ -1,0 +1,36 @@
+# ---- Build artifacts ----
+*.o
+*.a
+*.so
+*.so.*
+*.luac
+*.out
+
+# ---- Generated headers ----
+allopcodes_lua.h
+allopcodes_luac.h
+
+# ---- Compiled executables ----
+luadec
+luaopswap
+luareplace
+
+# ---- Lua 5.1 build outputs ----
+../lua-5.1/src/lua
+../lua-5.1/src/lua5.1
+../lua-5.1/src/luac
+../lua-5.1/src/luac5.1
+../lua-5.1/src/liblua.so*
+../lua-5.1/src/liblua.a
+
+# ---- Editor / system files ----
+*.swp
+*.swo
+*.bak
+*.log
+.DS_Store
+
+# ---- Misc ----
+/tmp/
+build/
+dist/
